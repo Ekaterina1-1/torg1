@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Регистрация и авторизация</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>321</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Авторизация</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Логин</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Пароль</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_loginAu">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>51</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_PassAu">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>101</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Aut">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>240</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 156, 57);</string>
+     </property>
+     <property name="text">
+      <string>Авторизоваться</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Регистрация</string>
+    </attribute>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Логин</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Пароль</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>ФИО</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>190</y>
+       <width>55</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Email</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_login">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>21</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>login</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_passw">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>61</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>passw</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_fio">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>141</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>fio</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_email">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>181</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>email</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_reg">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>250</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 156, 57);</string>
+     </property>
+     <property name="text">
+      <string>Зарегистрироваться</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>71</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Пароль</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_passto">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>101</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>passwto</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_login</tabstop>
+  <tabstop>lineEdit_passw</tabstop>
+  <tabstop>lineEdit_passto</tabstop>
+  <tabstop>lineEdit_fio</tabstop>
+  <tabstop>lineEdit_email</tabstop>
+  <tabstop>pushButton_reg</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>lineEdit_loginAu</tabstop>
+  <tabstop>lineEdit_PassAu</tabstop>
+  <tabstop>pushButton_Aut</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
